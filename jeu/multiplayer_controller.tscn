@@ -1,0 +1,88 @@
+[gd_scene load_steps=4 format=3 uid="uid://c2pgnh52ccepo"]
+
+[ext_resource type="Script" path="res://MultiplayerController.cs" id="1_marxa"]
+[ext_resource type="Texture2D" uid="uid://b38cc51tkn48p" path="res://Fon_multi.png" id="2_pn8e7"]
+[ext_resource type="Script" path="res://retour.cs" id="2_wrncn"]
+
+[node name="Multiplayer Controller" type="Control"]
+layout_mode = 3
+anchor_right = 1.182
+anchor_bottom = 1.222
+offset_top = 2.0
+offset_right = 0.335953
+offset_bottom = 2.144
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_marxa")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.846
+anchor_bottom = 0.816
+offset_right = -0.252075
+offset_bottom = -0.272034
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_pn8e7")
+
+[node name="Host" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.142
+anchor_top = 0.102
+anchor_right = 0.355
+anchor_bottom = 0.21
+offset_left = 26.596
+offset_top = 0.216003
+offset_right = -17.51
+offset_bottom = 4.68001
+text = "Host
+"
+
+[node name="Join" type="Button" parent="."]
+layout_mode = 0
+offset_left = 514.0
+offset_top = 79.0
+offset_right = 740.0
+offset_bottom = 170.0
+text = "Join
+"
+
+[node name="StatGame" type="Button" parent="."]
+layout_mode = 0
+offset_left = 781.0
+offset_top = 79.0
+offset_right = 1024.0
+offset_bottom = 173.0
+scale = Vector2(0.951673, 0.962077)
+text = "start Game"
+
+[node name="LineEdit" type="LineEdit" parent="."]
+layout_mode = 0
+offset_left = 218.0
+offset_top = 34.0
+offset_right = 1012.0
+offset_bottom = 65.0
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 153.0
+offset_top = 35.0
+offset_right = 205.0
+offset_bottom = 61.0
+text = "Name"
+
+[node name="retour" type="Button" parent="."]
+layout_mode = 0
+offset_left = 13.0
+offset_top = 33.0
+offset_right = 133.0
+offset_bottom = 95.0
+text = "Retour"
+script = ExtResource("2_wrncn")
+
+[connection signal="button_down" from="Host" to="." method="_on_host_button_down"]
+[connection signal="button_down" from="Join" to="." method="_on_join_button_down"]
+[connection signal="button_down" from="StatGame" to="." method="_on_stat_game_button_down"]
+[connection signal="button_down" from="retour" to="retour" method="_on_button_down"]

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "PDqW8LvkC61t+OYVhgANYFo58fxF8gMGoYdL/ayGPtZD7og0SFs9GbBTgnuaV7u5QOuOa6gY6EBr5KMkfTd8Mw==",
+  "success": true,
+  "projectFilePath": "/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/Test Reseau.csproj",
+  "expectedPackageFiles": [
+    "/Users/gsavini/.nuget/packages/godot.sourcegenerators/4.2.1/godot.sourcegenerators.4.2.1.nupkg.sha512",
+    "/Users/gsavini/.nuget/packages/godotsharp/4.2.1/godotsharp.4.2.1.nupkg.sha512",
+    "/Users/gsavini/.nuget/packages/godotsharpeditor/4.2.1/godotsharpeditor.4.2.1.nupkg.sha512"
+  ],
+  "logs": []
+}

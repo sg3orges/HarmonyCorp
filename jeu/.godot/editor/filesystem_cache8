@@ -1,0 +1,37 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1710624324
+Bullet.cs::CSharpScript::-1::1710079407::0::1::::<><>::
+bullet.tscn::PackedScene::6234119628525102439::1710079407::0::1::::<><>::res://Bullet.cs<>uid://b4gp8yk1n1ah7::::res://icon.svg
+export_presets.cfg::TextFile::-1::1710079407::0::1::::<><>::
+Famas.png::CompressedTexture2D::6165931573877313804::1710079407::1710624325::1::::<><>::
+Fon_multi.png::CompressedTexture2D::4419959393757924301::1710079407::1710624325::1::::<><>::
+GameManager.cs::CSharpScript::-1::1710079407::0::1::::<><>::
+icon.svg::CompressedTexture2D::4435254379018920558::1710079407::1710624325::1::::<><>::
+Main Character - Male - Full spritesheet - No Guide.png::CompressedTexture2D::6819515639283790892::1710079407::1710624325::1::::<><>::
+main_tileset.png::CompressedTexture2D::4404494374439653914::1710079407::1710624325::1::::<><>::
+menu.tscn::PackedScene::657711939565269884::1710079407::0::1::::<><>::uid://b4b0w2frmbwuv::::res://Assets_menu/fond.png<>uid://bxaa11xuckbwi::::res://Assets_menu/coeur.png<>uid://bxpaxdf00ct5a::::res://Assets_menu/Titre.png<>uid://c3q8jnfl51vm4::::res://Assets_menu/multi_bouton.png<>uid://ef6peb3xg6ji::::res://Assets_menu/charger_partie_bouton.png<>res://multi_bouton.cs<>uid://bsituxwfqwo4t::::res://Assets_menu/nouvelle_partie_bouton.png<>res://nouvelle_partie_bouton.cs
+MultiplayerController.cs::CSharpScript::-1::1710079407::0::1::::<><>::
+multiplayer_controller.tscn::PackedScene::6699293744438431916::1710079407::0::1::::<><>::res://MultiplayerController.cs<>uid://b38cc51tkn48p::::res://Fon_multi.png<>res://retour.cs
+multi_bouton.cs::CSharpScript::-1::1710079407::0::1::::<><>::
+nouvelle_partie_bouton.cs::CSharpScript::-1::1710079407::0::1::::<><>::
+nouvelle_partie_bouton.gd::GDScript::-1::1710079407::0::1::::<>Button<>::
+parallax_background_layer_6.png::CompressedTexture2D::5283054402036890338::1710079407::1710624325::1::::<><>::
+Player.cs::CSharpScript::-1::1710079407::0::1::::<><>::
+player.tscn::PackedScene::4417739862983605315::1710079407::0::1::::<><>::res://Player.cs<>uid://c4fooqy0ttr5e::::res://Main Character - Male - Full spritesheet - No Guide.png<>uid://cu24blvfhf4o6::::res://bullet.tscn<>uid://ct328y7fwn4ya::::res://Famas.png
+PlayerInfo.cs::CSharpScript::-1::1710079407::0::1::::<><>::
+retour.cs::CSharpScript::-1::1710079407::0::1::::<><>::
+SceneManager.cs::CSharpScript::-1::1710079407::0::1::::<><>::
+TestScene.tscn::PackedScene::5721925479917099454::1710079407::0::1::::<><>::res://SceneManager.cs<>uid://b30tm47awlcry::::res://main_tileset.png<>uid://b368sa2gl313t::::res://player.tscn<>uid://chjfetce7r7n7::::res://parallax_background_layer_6.png<>uid://7x10ej0udcep::::res://Buildings/building_01.png<>uid://fil5l7xy727y::::res://Buildings/building_02.png
+::res://Assets_menu/::1710079407
+charger_partie_bouton.png::CompressedTexture2D::292986489948166806::1710079407::1710624325::1::::<><>::
+coeur.png::CompressedTexture2D::4000811920058754600::1710079407::1710624325::1::::<><>::
+fond.png::CompressedTexture2D::4425520165878148925::1710079407::1710624325::1::::<><>::
+multi_bouton.png::CompressedTexture2D::6773179457291002969::1710079407::1710624325::1::::<><>::
+nouvelle_partie_bouton.png::CompressedTexture2D::3667525472223013749::1710079407::1710624325::1::::<><>::
+Titre.png::CompressedTexture2D::4031770993402023240::1710079407::1710624325::1::::<><>::
+::res://Buildings/::1710079407
+building_01.png::CompressedTexture2D::2295147196579334615::1710079407::1710624325::1::::<><>::
+building_02.png::CompressedTexture2D::368181329229187876::1710079407::1710624325::1::::<><>::
+building_03.png::CompressedTexture2D::2397392195616573320::1710079407::1710624325::1::::<><>::
+building_04.png::CompressedTexture2D::6996502625916097684::1710079407::1710624325::1::::<><>::
+building_05.png::CompressedTexture2D::1723217130032888781::1710079407::1710624325::1::::<><>::

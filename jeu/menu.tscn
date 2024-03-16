@@ -1,0 +1,65 @@
+[gd_scene load_steps=9 format=3 uid="uid://jmuojaccop05"]
+
+[ext_resource type="Texture2D" uid="uid://b4b0w2frmbwuv" path="res://Assets_menu/fond.png" id="1_10eb6"]
+[ext_resource type="Texture2D" uid="uid://bxaa11xuckbwi" path="res://Assets_menu/coeur.png" id="2_jh07f"]
+[ext_resource type="Texture2D" uid="uid://bxpaxdf00ct5a" path="res://Assets_menu/Titre.png" id="3_1n14b"]
+[ext_resource type="Texture2D" uid="uid://c3q8jnfl51vm4" path="res://Assets_menu/multi_bouton.png" id="4_l2fxp"]
+[ext_resource type="Texture2D" uid="uid://ef6peb3xg6ji" path="res://Assets_menu/charger_partie_bouton.png" id="4_p3d0t"]
+[ext_resource type="Script" path="res://multi_bouton.cs" id="6_1wfqn"]
+[ext_resource type="Texture2D" uid="uid://bsituxwfqwo4t" path="res://Assets_menu/nouvelle_partie_bouton.png" id="6_mfsax"]
+[ext_resource type="Script" path="res://nouvelle_partie_bouton.cs" id="7_gutir"]
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_10eb6")
+
+[node name="Coeur" type="Sprite2D" parent="."]
+position = Vector2(569, 378)
+texture = ExtResource("2_jh07f")
+
+[node name="Titre" type="Sprite2D" parent="."]
+position = Vector2(574, 83)
+scale = Vector2(4.85, 3.27)
+texture = ExtResource("3_1n14b")
+
+[node name="charger_partie" type="Button" parent="."]
+layout_mode = 0
+offset_left = 69.0
+offset_top = 414.0
+offset_right = 410.0
+offset_bottom = 610.0
+icon = ExtResource("4_p3d0t")
+
+[node name="multi" type="Button" parent="."]
+layout_mode = 0
+offset_left = 742.0
+offset_top = 269.0
+offset_right = 1083.0
+offset_bottom = 465.0
+icon = ExtResource("4_l2fxp")
+script = ExtResource("6_1wfqn")
+
+[node name="nouvelle_partie" type="Button" parent="."]
+layout_mode = 0
+offset_left = 71.0
+offset_top = 176.0
+offset_right = 412.0
+offset_bottom = 372.0
+icon = ExtResource("6_mfsax")
+script = ExtResource("7_gutir")
+
+[connection signal="button_down" from="multi" to="multi" method="_on_button_down"]
+[connection signal="button_down" from="nouvelle_partie" to="nouvelle_partie" method="_on_button_down"]

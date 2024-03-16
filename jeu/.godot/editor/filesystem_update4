@@ -1,0 +1,9 @@
+res://menu.tscn
+res://Bullet.cs
+res://GameManager.cs
+res://MultiplayerController.cs
+res://multi_bouton.cs
+res://nouvelle_partie_bouton.cs
+res://Player.cs
+res://retour.cs
+res://SceneManager.cs

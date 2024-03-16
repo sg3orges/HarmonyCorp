@@ -1,0 +1,17 @@
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/bin/Debug/Test Reseau.deps.json
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/bin/Debug/Test Reseau.runtimeconfig.json
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/bin/Debug/Test Reseau.dll
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/bin/Debug/Test Reseau.pdb
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/bin/Debug/GodotSharp.dll
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/bin/Debug/GodotSharpEditor.dll
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/obj/Debug/Test Reseau.csproj.AssemblyReference.cache
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/obj/Debug/Test Reseau.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/obj/Debug/Test Reseau.AssemblyInfoInputs.cache
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/obj/Debug/Test Reseau.AssemblyInfo.cs
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/obj/Debug/Test Reseau.csproj.CoreCompileInputs.cache
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/obj/Debug/Test Reseau.csproj.CopyComplete
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/obj/Debug/Test Reseau.dll
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/obj/Debug/refint/Test Reseau.dll
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/obj/Debug/Test Reseau.pdb
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/obj/Debug/Test Reseau.genruntimeconfig.cache
+/Users/gsavini/Desktop/Jeu/HarmonyCorp/jeu/.godot/mono/temp/obj/Debug/ref/Test Reseau.dll
